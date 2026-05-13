@@ -1,0 +1,16 @@
+have_fun: true
+
+ignore_patterns:
+  - "**/target/**"
+  - "**/build/**"
+
+code_review:
+  disable: false
+  comment_severity_threshold: LOW
+  max_review_comments: -1
+
+  pull_request_opened:
+    summary: true
+    help: true
+    code_review: true
+    include_drafts: true
