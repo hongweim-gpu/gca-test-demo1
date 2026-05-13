@@ -1,0 +1,21 @@
+public class Main {
+
+    public static int add(int a, int b) {
+        return a + b;
+    }
+
+    public static int divide(int a, int b) {
+        return a / b;
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println("GCA Java Test");
+
+        int result1 = add(1, 2);
+        System.out.println("Add Result: " + result1);
+
+        int result2 = divide(10, 2);
+        System.out.println("Divide Result: " + result2);
+    }
+}
