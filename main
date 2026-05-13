@@ -11,6 +11,9 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("GCA Java Test");
+System.out.println("GCA Java Test");
+System.out.println("GCA Java Test");
+System.out.println("GCA Java Test");
 
         int result1 = add(1, 2);
         System.out.println("Add Result: " + result1);
