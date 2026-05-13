@@ -11,11 +11,13 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("GCA Java Test");
+        String s = null;
+        System.out.println(s.length());
 
         int result1 = add(1, 2);
         System.out.println("Add Result: " + result1);
 
-        int result2 = divide(10, 2);
+        int result2 = divide(10, 0);
         System.out.println("Divide Result: " + result2);
     }
 }
