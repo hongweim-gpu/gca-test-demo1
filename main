@@ -15,10 +15,10 @@ System.out.println("GCA Java Test");
 System.out.println("GCA Java Test");
 System.out.println("GCA Java Test");
 
-        int result1 = add(1, 2);
+        int result1 = add(1, 3);
         System.out.println("Add Result: " + result1);
 
-        int result2 = divide(10, 2);
+        int result2 = divide(12, 2);
         System.out.println("Divide Result: " + result2);
     }
 }
